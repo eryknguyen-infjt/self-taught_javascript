@@ -37,3 +37,9 @@ function sndFunction(val, value) {
 
 sndFunction(4, 5)
 sndFunction(6, 7)
+
+// operator: we can have === or !== as well
+
+// && AND, || OR, ! same same OPPOSITE
+
+console.log(typeof sequence)
