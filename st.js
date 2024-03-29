@@ -15,7 +15,7 @@ let dictionary_objects = {
     Einstein: sequence
 } //objects or dictionary
 
-let array = [1, 2, 5, 6, 7, 9, 2, 0, 3490]
+
 
 console.log(sequence)
 console.log(dictionary_objects)
@@ -54,4 +54,22 @@ if (condition11 && condition12) {
     console.log('one the the values is true')
 } else {
     console.log('the val was false, so here we are')
+}
+
+let array = [1, 2, 5, 6, 7, 9, 2, 0, 3490]
+
+let i = 0
+let len = array.length
+
+while (i < len) {
+    console.log('value is true: ', i, array[i])
+    i++ // same i += 1
+}
+
+for (let j = 0; j < len; j++) {
+    if (j <= 6) { //or if (j <= 6)
+        // continue // means skip this loop
+        break // means end the loop when the condition is met
+    }
+    console.log('value is true: ', j, array[j])
 }
