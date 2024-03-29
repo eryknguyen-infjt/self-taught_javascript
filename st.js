@@ -43,3 +43,15 @@ sndFunction(6, 7)
 // && AND, || OR, ! same same OPPOSITE
 
 console.log(typeof sequence)
+
+let condition11 = true
+let condition12 = false
+
+
+if (condition11 && condition12) {
+    console.log('Hey guys!')
+} else if(condition11 || condition12) {
+    console.log('one the the values is true')
+} else {
+    console.log('the val was false, so here we are')
+}
