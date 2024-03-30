@@ -73,3 +73,15 @@ for (let j = 0; j < len; j++) {
     }
     console.log('value is true: ', j, array[j])
 }
+
+
+
+
+function addStr(string1='defaultst', string2='defaultdad') {
+    let concatingStr = string1 + ' ' + string2
+    console.log(concatingStr)
+    return concatingStr
+}
+
+let news = addStr('hello')
+console.log('The new strings is:' , news)
